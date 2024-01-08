@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -53,8 +53,7 @@ ul {
   padding: 0px;
 }
 
-li,
-h3 {
+li, h3 {
   list-style: none;
 }
 
@@ -125,8 +124,7 @@ button {
 /* Task list */
 .completed__item,
 .incomplete__item,
-.item
- {
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -134,10 +132,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-li>* {
-  vertical-align: middle;
 }
 
 .checkbox,
@@ -157,8 +151,7 @@ li>* {
   width: 226px
 }
 
-.completed__remove,
-.incomplete__remove {
+.completed__remove, .incomplete__remove {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -179,16 +172,16 @@ li>* {
 .item .incomplete__text-input,
 .item .completed__text-input
  {
-  display:none
+  display: none
 }
 
 .editMode .completed__text-input,
 .editMode .incomplete__text-input{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .incomplete__label,
 .editMode .completed__label {
-  display:none;
+  display: none;
 }
