@@ -15,11 +15,13 @@
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
@@ -115,6 +117,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -141,6 +144,7 @@ li>* {
 .incomplete__checkbox {
   margin: 0 10px;
 }
+
 .completed__label,
 .incomplete__label {
   padding-left: 10px;
@@ -148,6 +152,7 @@ li>* {
   font-size: 18px;
   width: 226px;
 }
+
 .completed__text-input {
   width: 226px
 }
@@ -158,15 +163,18 @@ li>* {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .completed__remove:hover,
 .incomplete__remove:hover {
   transform: rotateZ(0);
 }
+
 /* Completed */
 .completed__label {
   text-decoration: line-through;
    color: #888;
 }
+
 /* Edit Task */
 .item .incomplete__text-input,
 .item .completed__text-input
