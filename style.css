@@ -148,7 +148,7 @@ button {
 }
 
 .completed__text-input {
-  width: 226px
+  width: 226px;
 }
 
 .completed__remove, .incomplete__remove {
@@ -172,13 +172,13 @@ button {
 .item .incomplete__text-input,
 .item .completed__text-input
  {
-  display: none
+  display: none;
 }
 
 .editMode .completed__text-input,
 .editMode .incomplete__text-input{
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .editMode .incomplete__label,
